@@ -1,0 +1,64 @@
+.price-section {
+  background: linear-gradient(267.18deg, #161616, #080808);
+}
+
+.optional-plans {
+  background: linear-gradient(267.18deg, #161616, #080808);
+  display: flex;
+  justify-content: space-evenly;
+}
+.plan-toggle-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.price-card {
+  background-color: black;
+  color: white;
+  box-shadow: 1px 3px 4px 0px white;
+  width: 28%;
+  box-sizing: border-box;
+  padding: 32px 40px;
+  border-radius: 15px;
+  margin: 8px !important;
+}
+@media (max-width: 992px) {
+  .optional-plans {
+    flex-wrap: wrap;
+  }
+  .price-card {
+    width: 90%;
+    margin: auto;
+  }
+}
+.price-card-title {
+  font-weight: 500;
+  font-size: 26px;
+}
+.price-box {
+  color: #fd6219;
+}
+.price-box h2 {
+  font-size: 46px;
+}
+.price-card-comment {
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.facilities-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.582);
+  padding: 40px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.facilities-list li {
+  margin-left: 4px;
+}
+.price-btn-link {
+  width: 100%;
+  color: #fd6219;
+  text-decoration: none;
+}

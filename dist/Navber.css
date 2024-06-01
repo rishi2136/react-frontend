@@ -1,0 +1,12 @@
+.text-link {
+  font-weight: 500;
+}
+.text-link:hover {
+  color: #fd6219;
+}
+
+.dropdown-icon {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  margin-left: 2px;
+}
