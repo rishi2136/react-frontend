@@ -14,7 +14,10 @@ let Slides = () => {
       },
       method: "GET",
     };
-    let res = await axios.get("http://localhost:3000/cabryder/service", config);
+    let res = await axios.get(
+      "https://react-node-backend-2.onrender.com/cabryder/service",
+      config
+    );
     setInfos(res.data);
   };
 
