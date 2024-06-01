@@ -1,0 +1,28 @@
+.commit-services {
+  width: 100%;
+  padding: 0 48px !important;
+  color: white !important;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+.commit-options {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.option-list {
+  font-weight: 500;
+  color: white;
+  margin-left: 0;
+  width: 100%;
+}
+.option-list li {
+  margin-left: -28px !important;
+}
+.icon-img {
+  transition: transform 4s;
+  /* transform: rotate(270deg); */
+}
+.commit-options:hover .icon-img {
+  transform: rotate(360deg);
+}

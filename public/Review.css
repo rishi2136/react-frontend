@@ -1,0 +1,18 @@
+.myslide {
+  height: 300px;
+  width: 50%;
+  box-sizing: border-box;
+  margin: auto;
+  color: white;
+}
+.each-carousel {
+  text-align: center !important;
+}
+.carousal-btn {
+  color: #fd6219 !important;
+}
+.quote {
+  font-size: 84px;
+  color: #fd6219;
+  text-align: center;
+}
