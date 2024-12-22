@@ -23,6 +23,6 @@
   transition: transform 4s;
   /* transform: rotate(270deg); */
 }
-.commit-options:hover .icon-img {
+/* .commit-options:hover .icon-img {
   transform: rotate(360deg);
-}
+} */
